@@ -1,0 +1,19 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+#root {
+  height: 100%;
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main_content {
+  flex: 1;
+  padding-top: 70px; /* because header is fixed */
+}

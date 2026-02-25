@@ -1,0 +1,67 @@
+.footer_outer_container {
+  background-color: #111;
+  color: grey;
+  display: flex;
+  justify-content: center;
+  padding: 40px 0;
+}
+
+.footer_inner_container {
+  width: 80%;
+}
+
+/* Social icons */
+.footer_icons {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.footer_icons svg {
+  font-size: 28px;
+  cursor: pointer;
+  color: white;
+  transition: 0.3s;
+}
+
+.footer_icons svg:hover {
+  color: #b3b3b3;
+}
+
+/* Footer link grid */
+.footer_data {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.footer_data_col ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer_data_col li {
+  margin-bottom: 10px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.footer_data_col li:hover {
+  text-decoration: underline;
+}
+
+/* Service Code Button */
+.service_code {
+  border: 1px solid grey;
+  padding: 5px 10px;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+/* Copyright */
+.footer_copy {
+  margin-top: 30px;
+  font-size: 12px;
+  color: grey;
+}
