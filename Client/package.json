@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://biniyam3575.github.io/Netflix-clone",
+  "homepage": "https://biniyam3575.github.io/my-movie-app",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
